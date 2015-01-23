@@ -9,21 +9,21 @@ h1,h2  {
 	text-decoration: underline;
 	font-family: 'Sigmar One', cursive;
 	line-height:1.5;
+	text-align: center;
 }
 
 	ol {
-	list-style-type: none;
 	line-height:1.5;
 	font-weight: bold;
 	font-size: 1rem;
 	text-decoration: none;
 	font-family: Arial, sans-serif;
 
+	list-style-type: none;
 	padding: 0;
 }
 
 p {
-	list-style-type: none;
 	line-height:1.5;
 	font-weight: normal;
 	font-size: 1rem;
@@ -32,7 +32,6 @@ p {
 }
 
 blockquote {
-	list-style-type: none;
 	font-style:italic;
 	line-height:1.5;
 	font-weight: normal;
@@ -40,3 +39,51 @@ blockquote {
 	text-decoration: none;
 	font-family: Arial, sans-serif;
 }
+
+figcaption {
+	font-style:bold ;
+	line-height:1.5;
+	font-weight: normal;
+	font-size: 2rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+dl {
+	font-style: bold;
+	line-height:1.5;
+	font-weight: bold;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	text-align: right;
+}
+
+dd {
+	font-style: italic;
+	line-height:1.5;
+	font-weight: bold;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	text-align: right;}
+
+a {
+		color: red;
+}
+
+a:hover {
+		color: purple;
+}
+
+.merc {
+	color: white;
+}
+
+.bars {
+	color: blue;
+}
+
+.cite {
+	text-align: right;
+	}
