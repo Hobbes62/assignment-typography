@@ -1,3 +1,42 @@
 html {
 	background-color:#ccc;
 }
+
+h1,h2  {
+	font-weight: bold;
+	font-size: 5rem;
+	font-style: bold;
+	text-decoration: underline;
+	font-family: 'Sigmar One', cursive;
+	line-height:1.5;
+}
+
+	ol {
+	list-style-type: none;
+	line-height:1.5;
+	font-weight: bold;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+
+	padding: 0;
+}
+
+p {
+	list-style-type: none;
+	line-height:1.5;
+	font-weight: normal;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+blockquote {
+	list-style-type: none;
+	font-style:italic;
+	line-height:1.5;
+	font-weight: normal;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
